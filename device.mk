@@ -32,6 +32,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
+# Inherit surya firmware images
+$(call inherit-product, firmware/xiaomi/surya/Android.mk)
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -421,6 +424,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    firmware/xiaomi/surya \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/xiaomi
