@@ -115,6 +115,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_MKBOOTIMG_ARGS := --header_version 2
 
+KERNEL_SUPPORTS_LLVM_TOOLS := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
