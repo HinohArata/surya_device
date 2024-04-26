@@ -3,3 +3,6 @@ ro.config.low_ram=false
 ro.lmk.log_stats=true
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
+
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
