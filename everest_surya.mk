@@ -23,7 +23,7 @@ EVEREST_MAINTAINER := Skyy丨HinohArata
 # Extra Stuffs
 TARGET_SUPPORTS_BLUR := true
 TARGET_BUILD_INNERTUNE := true
-WITH_GAPPS := true
+WITH_GAPPS := false
 
 # Device Manufacture
 PRODUCT_NAME := everest_surya
@@ -32,7 +32,7 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-USE_GMS := true
+USE_GMS := false
 
 BUILD_FINGERPRINT := POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.2.0.SJGMIXM:user/release-keys
 
