@@ -1,5 +1,5 @@
 Copyright (C) 2020 The LineageOS Project  
-Copyright (C) 2020-2021 Paranoid Android
+Copyright (C) 2020-2021 Paranoid Androi
 
 Device configuration for POCO X3/POCO X3 NFC
 =========================================
